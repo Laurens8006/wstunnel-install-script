@@ -1,6 +1,6 @@
 # WSTunnel Install Script
 
-A simple Bash script to quickly install and configure **wstunnel** on Ubuntu
+A simple Bash script to quickly install and configure **wstunnel** on Ubuntu for wiregaurd
 
 ## Requirements
 
