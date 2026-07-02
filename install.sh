@@ -9,11 +9,11 @@ SERVICE_USER="wstunnel"
 SERVICE_FILE="/etc/systemd/system/wstunnel.service"
 
 read -rp "Server IP or domain: " SERVER_HOST
-read -rp "Listening port [9443]: " LISTEN_PORT
-LISTEN_PORT=${LISTEN_PORT:-9443}
+read -rp "Listening port [8898]: " LISTEN_PORT
+LISTEN_PORT=${LISTEN_PORT:-8898}
 
-read -rp "WireGuard server IP [192.168.20.1]: " WG_IP
-WG_IP=${WG_IP:-192.168.20.1}
+read -rp "WireGuard server IP [127.0.0.1/localhost]: " WG_IP
+WG_IP=${WG_IP:-127.0.0.1}
 
 read -rp "WireGuard port [51820]: " WG_PORT
 WG_PORT=${WG_PORT:-51820}
