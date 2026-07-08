@@ -46,7 +46,6 @@ Type=simple
 User=$SERVICE_USER
 Group=$SERVICE_USER
 ExecStart=$INSTALL_DIR/wstunnel server \
-  --restrict-to ${WG_IP}:${WG_PORT} \
   --restrict-http-upgrade-path-prefix ${PATH_PREFIX} \
   wss://0.0.0.0:${LISTEN_PORT}
 
